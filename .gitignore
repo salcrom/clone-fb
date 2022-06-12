@@ -38,4 +38,4 @@ jspm_packages
 .next
 
 # variables
-.env
+.env.local
