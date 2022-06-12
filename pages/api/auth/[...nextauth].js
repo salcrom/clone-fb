@@ -7,7 +7,9 @@ export default NextAuth({
     providers: [
       FacebookProvider({
         clientId: process.env.FACEBOOK_CLIENT_ID,
-        clientSecret: process.env.FACEBOOK_CLIENT_SECRET
+        clientSecret: process.env.FACEBOOK_CLIENT_SECRET,
+        nextauth_url: process.env.NEXTAUTH_URL,
+        nextauth_secret: process.env.NEXTAUTH_SECRET
       }),
       // ...add more providers here
     ],
