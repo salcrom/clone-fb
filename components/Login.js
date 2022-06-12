@@ -2,6 +2,7 @@ import Image from "next/image"
 import { signIn } from "next-auth/react"
 
 
+console.log(process.env)
 export const Login = () => {
     return (
         <div className="grid place-items-center mt-40">
