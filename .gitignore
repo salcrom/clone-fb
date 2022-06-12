@@ -39,4 +39,3 @@ jspm_packages
 
 # variables
 .env.local
-.env.production
