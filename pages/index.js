@@ -11,7 +11,7 @@ import { Widgets } from '../components/Widgets';
 
 export default function Home({ session }) {
   if(!session) return <Login />
-  
+  console.log(process.env);
   return (
     <div className="h-screen bg-gray-100 overflow-hidden">
       <Head>
