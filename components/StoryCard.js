@@ -19,6 +19,8 @@ export const StoryCard = ({ name, src, profile }) => {
                 className="object-cover filter brightness-75 rounded-full lg:rounded-3xl"
                 src={src}
                 alt=""
+                width
+                height
                 layout="fill"
             />
             <p className="absolute opacity-0 lg:opacity-100 bottom-4 w-5/6 text-white text-sm font-bold truncate">

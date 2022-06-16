@@ -31,6 +31,8 @@ export const Post = ({ name, message, email, timestamp, image, postImage }) => {
                     <Image
                         src={postImage}
                         alt=""
+                        width
+                        height
                         objectFit='cover'
                         layout='fill'
                     />
