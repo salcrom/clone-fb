@@ -14,8 +14,7 @@ export const Login = () => {
                 objectFit="contain"
             />
             <h1
-                onClick={ () => signIn('facebook')}
-                // Eliminar: , { callbackUrl: 'https://localhost:3001/api/auth' } 
+                onClick={ () => signIn('facebook', { callbackUrl: 'https://clone-fb.salcromweb.com/api/auth' } )}
                 className="mt-20 p-5 bg-blue-500 rounded-full text-white text-center cursor-pointer">Login with Facebook
             </h1>
         </div>
